@@ -1,0 +1,44 @@
+# site:
+#   type: "travel_blog"  # Can be: travel_blog, cooking_site, gadget_blog, etc.
+#   name: "AI Travel Blog"
+#   description: "A blog about travel destinations around the world"
+#   theme:
+#     primary_topics:
+#       - "destinations"
+#       - "travel tips"
+#       - "adventures"
+#     content_style: "friendly, informative travel expert"
+#     image_subjects:
+#       - "travel"
+#       - "landscapes"
+#       - "destinations"
+#     sections:
+#       - name: "Featured Destinations"
+#         type: "featured"
+#         count: 3
+#       - name: "Latest Travel Tips"
+#         type: "blog_preview"
+#         count: 2
+
+Example alternative configurations (commented out):
+site:
+  type: "cooking_site"
+  name: "Culinary Adventures"
+  description: "Exploring world cuisines and cooking techniques"
+  theme:
+    primary_topics:
+      - "recipes"
+      - "cooking tips"
+      - "ingredients"
+    content_style: "passionate chef sharing culinary knowledge"
+    image_subjects:
+      - "food"
+      - "cooking"
+      - "ingredients"
+    sections:
+      - name: "Featured Recipes"
+        type: "featured"
+        count: 3
+      - name: "Cooking Tips"
+        type: "blog_preview"
+        count: 2 
